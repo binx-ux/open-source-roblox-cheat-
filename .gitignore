@@ -1,0 +1,46 @@
+﻿# Build / IDE
+.vs/
+**/.vs/
+**/x64/
+**/Debug/
+**/Release/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.ipch
+
+# Packaged / binary distributions (never commit)
+FADE/
+FADE.zip
+*.zip
+MatchWare-External.exe
+
+# Binaries
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.iobj
+*.ipdb
+*.tlog
+*.log
+*.recipe
+*.Build.CppClean.log
+
+# Runtime / local cache
+offsets_cache/
+imgui.ini
+
+# Local secrets — never commit webhooks or keys
+**/secrets.h
+**/*webhook*
+.env
+.env.*
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

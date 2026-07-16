@@ -1,0 +1,17 @@
+#include "resource.h"
+
+IDI_ICON1 ICON "assets\\fade.ico"
+
+IDR_FONT_ROBOTO_REG  RCDATA "assets\\Roboto-Regular.ttf"
+IDR_FONT_ROBOTO_BOLD RCDATA "assets\\Roboto-Bold.ttf"
+IDR_FONT_JB_REG      RCDATA "assets\\JetBrainsMono-Regular.ttf"
+IDR_FONT_JB_BOLD     RCDATA "assets\\JetBrainsMono-Bold.ttf"
+IDR_FONT_NOTO_REG    RCDATA "assets\\NotoSans-Regular.ttf"
+IDR_FONT_NOTO_BOLD   RCDATA "assets\\NotoSans-Bold.ttf"
+IDR_FONT_CASCADIA    RCDATA "assets\\sys-CascadiaCode.ttf"
+IDR_FONT_CASCADIA_MO RCDATA "assets\\sys-CascadiaMono.ttf"
+/* Extra licensed font copies to ship a full UI pack */
+IDR_FONT_PACK_A      RCDATA "assets\\NotoSans-Regular.ttf"
+IDR_FONT_PACK_B      RCDATA "assets\\NotoSans-Bold.ttf"
+IDR_FONT_PACK_C      RCDATA "assets\\Roboto-Regular.ttf"
+IDR_FONT_PACK_D      RCDATA "assets\\Roboto-Bold.ttf"
